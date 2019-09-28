@@ -20,7 +20,6 @@ export default class Helloworld extends cc.Component {
         this.sp_cameras.forEach((v) => {
             v.spriteFrame = spriteFrame
         })
-        // this.node_icon.runAction(cc.repeatForever(cc.rotateBy(1, 100)));
         this.node.on(cc.Node.EventType.TOUCH_MOVE, this.onNodeIconTouchMove, this);
         this.schedule(this.shadowFollow, 0.1, cc.macro.REPEAT_FOREVER);
     }
