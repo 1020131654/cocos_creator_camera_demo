@@ -353,7 +353,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "node_show",
+    "_name": "node_show_4",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -440,7 +440,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "node_show",
+    "_name": "node_show_3",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -527,7 +527,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "node_show",
+    "_name": "node_show_2",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -614,7 +614,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "node_show",
+    "_name": "node_show_1",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -701,7 +701,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "node_show",
+    "_name": "node_show_0",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
