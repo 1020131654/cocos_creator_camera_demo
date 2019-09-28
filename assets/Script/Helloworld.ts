@@ -26,7 +26,7 @@ export default class Helloworld extends cc.Component {
 
     private shadowFollow() {
         this.sp_cameras.forEach((v, i) => {
-            const dis = Math.sqrt(Math.pow(v.node.x - this.node_icon.x, 2) + Math.pow(v.node.x - this.node_icon.y, 2));
+            const dis = this.node.position.sub(v.node.position).mag(); 
             if (dis > 0) {
                 v.node.stopAllActions();
                 v.node.runAction(cc.moveTo(i * 0.05 + 0.02, this.node_icon.x, this.node_icon.y));
